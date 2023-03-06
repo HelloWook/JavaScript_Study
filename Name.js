@@ -50,5 +50,29 @@ Bolleam() -> 불린형으로 변환
 < > <= >= == != ===(일치연산자 //자료형까지 비교해버림)
  */
 
-조건문
+// 함수 
+/* 
+function show()
+{
+    console.log("에러가 발생했습니다.");
+    호이스팅으로 함수를 어디서든 호출가능 
+    let 
+}
+show();
+ */
 
+// 객체
+const superman ={
+    name : 'clark',
+    age : 33,
+    gender : 'male',
+    showname : function()
+    {
+        console.log(this.name); // this로 선언하는게 좋음 
+    }
+    
+}
+//객체 추가 
+superman.haircolor = 'black';  //
+superman['hobby']="football";
+console.log(superman);
